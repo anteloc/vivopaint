@@ -1,0 +1,11 @@
+[package]
+name = "vivopaint"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iced = {version = "0.10.0", features = ["debug", "canvas", "tokio"]}
+tracing-subscriber = "0.3"
+voronator = "0.2"
